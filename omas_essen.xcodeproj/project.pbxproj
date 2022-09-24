@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4952683C28DF2684009B50FA /* omas_essenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952683B28DF2684009B50FA /* omas_essenApp.swift */; };
+		4952683E28DF2684009B50FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952683D28DF2684009B50FA /* ContentView.swift */; };
+		4952684028DF2685009B50FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4952683F28DF2685009B50FA /* Assets.xcassets */; };
+		4952684328DF2685009B50FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4952684228DF2685009B50FA /* Preview Assets.xcassets */; };
+		4952684D28DF2685009B50FA /* omas_essenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952684C28DF2685009B50FA /* omas_essenTests.swift */; };
+		4952685728DF2685009B50FA /* omas_essenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952685628DF2685009B50FA /* omas_essenUITests.swift */; };
+		4952685928DF2685009B50FA /* omas_essenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952685828DF2685009B50FA /* omas_essenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4952684928DF2685009B50FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4952683028DF2684009B50FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4952683728DF2684009B50FA;
+			remoteInfo = omas_essen;
+		};
+		4952685328DF2685009B50FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4952683028DF2684009B50FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4952683728DF2684009B50FA;
+			remoteInfo = omas_essen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4952683828DF2684009B50FA /* omas_essen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omas_essen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4952683B28DF2684009B50FA /* omas_essenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omas_essenApp.swift; sourceTree = "<group>"; };
+		4952683D28DF2684009B50FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4952683F28DF2685009B50FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4952684228DF2685009B50FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4952684828DF2685009B50FA /* omas_essenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omas_essenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4952684C28DF2685009B50FA /* omas_essenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omas_essenTests.swift; sourceTree = "<group>"; };
+		4952685228DF2685009B50FA /* omas_essenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omas_essenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4952685628DF2685009B50FA /* omas_essenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omas_essenUITests.swift; sourceTree = "<group>"; };
+		4952685828DF2685009B50FA /* omas_essenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omas_essenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4952683528DF2684009B50FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4952684528DF2685009B50FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4952684F28DF2685009B50FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4952682F28DF2684009B50FA = {
+			isa = PBXGroup;
+			children = (
+				4952683A28DF2684009B50FA /* omas_essen */,
+				4952684B28DF2685009B50FA /* omas_essenTests */,
+				4952685528DF2685009B50FA /* omas_essenUITests */,
+				4952683928DF2684009B50FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4952683928DF2684009B50FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4952683828DF2684009B50FA /* omas_essen.app */,
+				4952684828DF2685009B50FA /* omas_essenTests.xctest */,
+				4952685228DF2685009B50FA /* omas_essenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4952683A28DF2684009B50FA /* omas_essen */ = {
+			isa = PBXGroup;
+			children = (
+				4952683B28DF2684009B50FA /* omas_essenApp.swift */,
+				4952683D28DF2684009B50FA /* ContentView.swift */,
+				4952683F28DF2685009B50FA /* Assets.xcassets */,
+				4952684128DF2685009B50FA /* Preview Content */,
+			);
+			path = omas_essen;
+			sourceTree = "<group>";
+		};
+		4952684128DF2685009B50FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4952684228DF2685009B50FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4952684B28DF2685009B50FA /* omas_essenTests */ = {
+			isa = PBXGroup;
+			children = (
+				4952684C28DF2685009B50FA /* omas_essenTests.swift */,
+			);
+			path = omas_essenTests;
+			sourceTree = "<group>";
+		};
+		4952685528DF2685009B50FA /* omas_essenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4952685628DF2685009B50FA /* omas_essenUITests.swift */,
+				4952685828DF2685009B50FA /* omas_essenUITestsLaunchTests.swift */,
+			);
+			path = omas_essenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4952683728DF2684009B50FA /* omas_essen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4952685C28DF2685009B50FA /* Build configuration list for PBXNativeTarget "omas_essen" */;
+			buildPhases = (
+				4952683428DF2684009B50FA /* Sources */,
+				4952683528DF2684009B50FA /* Frameworks */,
+				4952683628DF2684009B50FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = omas_essen;
+			productName = omas_essen;
+			productReference = 4952683828DF2684009B50FA /* omas_essen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4952684728DF2685009B50FA /* omas_essenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4952685F28DF2685009B50FA /* Build configuration list for PBXNativeTarget "omas_essenTests" */;
+			buildPhases = (
+				4952684428DF2685009B50FA /* Sources */,
+				4952684528DF2685009B50FA /* Frameworks */,
+				4952684628DF2685009B50FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4952684A28DF2685009B50FA /* PBXTargetDependency */,
+			);
+			name = omas_essenTests;
+			productName = omas_essenTests;
+			productReference = 4952684828DF2685009B50FA /* omas_essenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4952685128DF2685009B50FA /* omas_essenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4952686228DF2685009B50FA /* Build configuration list for PBXNativeTarget "omas_essenUITests" */;
+			buildPhases = (
+				4952684E28DF2685009B50FA /* Sources */,
+				4952684F28DF2685009B50FA /* Frameworks */,
+				4952685028DF2685009B50FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4952685428DF2685009B50FA /* PBXTargetDependency */,
+			);
+			name = omas_essenUITests;
+			productName = omas_essenUITests;
+			productReference = 4952685228DF2685009B50FA /* omas_essenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4952683028DF2684009B50FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4952683728DF2684009B50FA = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4952684728DF2685009B50FA = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4952683728DF2684009B50FA;
+					};
+					4952685128DF2685009B50FA = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4952683728DF2684009B50FA;
+					};
+				};
+			};
+			buildConfigurationList = 4952683328DF2684009B50FA /* Build configuration list for PBXProject "omas_essen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4952682F28DF2684009B50FA;
+			productRefGroup = 4952683928DF2684009B50FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4952683728DF2684009B50FA /* omas_essen */,
+				4952684728DF2685009B50FA /* omas_essenTests */,
+				4952685128DF2685009B50FA /* omas_essenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4952683628DF2684009B50FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4952684328DF2685009B50FA /* Preview Assets.xcassets in Resources */,
+				4952684028DF2685009B50FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4952684628DF2685009B50FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4952685028DF2685009B50FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4952683428DF2684009B50FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4952683E28DF2684009B50FA /* ContentView.swift in Sources */,
+				4952683C28DF2684009B50FA /* omas_essenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4952684428DF2685009B50FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4952684D28DF2685009B50FA /* omas_essenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4952684E28DF2685009B50FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4952685728DF2685009B50FA /* omas_essenUITests.swift in Sources */,
+				4952685928DF2685009B50FA /* omas_essenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4952684A28DF2685009B50FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4952683728DF2684009B50FA /* omas_essen */;
+			targetProxy = 4952684928DF2685009B50FA /* PBXContainerItemProxy */;
+		};
+		4952685428DF2685009B50FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4952683728DF2684009B50FA /* omas_essen */;
+			targetProxy = 4952685328DF2685009B50FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4952685A28DF2685009B50FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4952685B28DF2685009B50FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4952685D28DF2685009B50FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"omas_essen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omas-essen.omas-essen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4952685E28DF2685009B50FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"omas_essen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omas-essen.omas-essen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4952686028DF2685009B50FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omas-essen.omas-essenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omas_essen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/omas_essen";
+			};
+			name = Debug;
+		};
+		4952686128DF2685009B50FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omas-essen.omas-essenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omas_essen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/omas_essen";
+			};
+			name = Release;
+		};
+		4952686328DF2685009B50FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omas-essen.omas-essenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = omas_essen;
+			};
+			name = Debug;
+		};
+		4952686428DF2685009B50FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omas-essen.omas-essenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = omas_essen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4952683328DF2684009B50FA /* Build configuration list for PBXProject "omas_essen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952685A28DF2685009B50FA /* Debug */,
+				4952685B28DF2685009B50FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4952685C28DF2685009B50FA /* Build configuration list for PBXNativeTarget "omas_essen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952685D28DF2685009B50FA /* Debug */,
+				4952685E28DF2685009B50FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4952685F28DF2685009B50FA /* Build configuration list for PBXNativeTarget "omas_essenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952686028DF2685009B50FA /* Debug */,
+				4952686128DF2685009B50FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4952686228DF2685009B50FA /* Build configuration list for PBXNativeTarget "omas_essenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952686328DF2685009B50FA /* Debug */,
+				4952686428DF2685009B50FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4952683028DF2684009B50FA /* Project object */;
+}

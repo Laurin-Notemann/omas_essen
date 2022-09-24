@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4952683C28DF2684009B50FA /* omas_essenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952683B28DF2684009B50FA /* omas_essenApp.swift */; };
-		4952683E28DF2684009B50FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952683D28DF2684009B50FA /* ContentView.swift */; };
+		4952683E28DF2684009B50FA /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952683D28DF2684009B50FA /* MainPage.swift */; };
 		4952684028DF2685009B50FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4952683F28DF2685009B50FA /* Assets.xcassets */; };
 		4952684328DF2685009B50FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4952684228DF2685009B50FA /* Preview Assets.xcassets */; };
 		4952684D28DF2685009B50FA /* omas_essenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952684C28DF2685009B50FA /* omas_essenTests.swift */; };
 		4952685728DF2685009B50FA /* omas_essenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952685628DF2685009B50FA /* omas_essenUITests.swift */; };
 		4952685928DF2685009B50FA /* omas_essenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952685828DF2685009B50FA /* omas_essenUITestsLaunchTests.swift */; };
+		4952686628DF3335009B50FA /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686528DF3335009B50FA /* LoginPage.swift */; };
+		4952686828DF3390009B50FA /* ShareFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686728DF3390009B50FA /* ShareFood.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		4952683828DF2684009B50FA /* omas_essen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omas_essen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4952683B28DF2684009B50FA /* omas_essenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omas_essenApp.swift; sourceTree = "<group>"; };
-		4952683D28DF2684009B50FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4952683D28DF2684009B50FA /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		4952683F28DF2685009B50FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4952684228DF2685009B50FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4952684828DF2685009B50FA /* omas_essenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omas_essenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		4952685228DF2685009B50FA /* omas_essenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omas_essenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4952685628DF2685009B50FA /* omas_essenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omas_essenUITests.swift; sourceTree = "<group>"; };
 		4952685828DF2685009B50FA /* omas_essenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omas_essenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4952686528DF3335009B50FA /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		4952686728DF3390009B50FA /* ShareFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFood.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				4952683B28DF2684009B50FA /* omas_essenApp.swift */,
-				4952683D28DF2684009B50FA /* ContentView.swift */,
+				4952683D28DF2684009B50FA /* MainPage.swift */,
+				4952686528DF3335009B50FA /* LoginPage.swift */,
 				4952683F28DF2685009B50FA /* Assets.xcassets */,
 				4952684128DF2685009B50FA /* Preview Content */,
+				4952686728DF3390009B50FA /* ShareFood.swift */,
 			);
 			path = omas_essen;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4952683E28DF2684009B50FA /* ContentView.swift in Sources */,
+				4952683E28DF2684009B50FA /* MainPage.swift in Sources */,
+				4952686828DF3390009B50FA /* ShareFood.swift in Sources */,
+				4952686628DF3335009B50FA /* LoginPage.swift in Sources */,
 				4952683C28DF2684009B50FA /* omas_essenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

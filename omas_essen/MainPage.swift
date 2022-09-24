@@ -12,7 +12,7 @@ struct MainPage: View {
         TabView {
             ShareFood()
                 .tabItem {
-                    Label("Share", systemImage: "fjdksl")
+                    Label("Share", systemImage: "shared.with.you")
                 }
             GetFood()
                 .tabItem {

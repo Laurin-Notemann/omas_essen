@@ -11,7 +11,9 @@ import SwiftUI
 struct omas_essenApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginPage()
+            NavigationStack {
+                LoginPage()
+            }
         }
     }
 }

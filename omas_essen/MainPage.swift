@@ -9,16 +9,19 @@ import SwiftUI
 
 struct MainPage: View {
     var body: some View {
-        VStack {
-            HStack{
-                Text("Omas")
-                    .bold()
-                    .font(.largeTitle)
-                Text("Essen")
-                    .bold()
-                    .font(.largeTitle)
-                    .padding(-7)
-            }
+        TabView {
+            ShareFood()
+                .tabItem {
+                    Label("Share", systemImage: "fjdksl")
+                }
+            GetFood()
+                .tabItem {
+                    Label("Get", systemImage: "kdfjlk")
+                }
+            Text("Settigs View")
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
             
         }
     }
@@ -26,6 +29,8 @@ struct MainPage: View {
 
 struct MainPage_Previews: PreviewProvider {
     static var previews: some View {
-        MainPage()
+        NavigationStack {
+            MainPage()
+        }
     }
 }

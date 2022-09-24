@@ -8,27 +8,43 @@
 import SwiftUI
 
 struct LoginPage: View {
+    
+    @State private var logedIn: Bool = false
+    
     @State private var name: String = ""
     @State private var phonenumber: String = ""
     @State private var summary: String = ""
+    
     var body: some View {
-        VStack(alignment: .center){
-            Text("Login:")
-            TextField(
+        if logedIn {
+            MainPage()
+        } else {
+            VStack(alignment: .center) {
+                Text("Login:")
+                TextField(
                     "Enter your full name",
                     text: $name
-            )
-            .border(.secondary)
-            TextField(
-                "Enter your mobile number",
-                text: $phonenumber
-            )
-            TextField(
-                "Tell something about yourself",
-                text: $summary
-            )
+                )
+                .padding()
+                .textFieldStyle(.roundedBorder)
+                TextField(
+                    "Enter your mobile number",
+                    text: $phonenumber
+                )
+                .textFieldStyle(.roundedBorder)
+                .padding()
+                //.border(.background)
+                TextField(
+                    "Tell something about yourself",
+                    text: $summary
+                )
+                .padding()
+                .textFieldStyle(.roundedBorder)
+                Button("Login") {
+                    logedIn = true
+                }
+            }
         }
-        
     }
 }
 

@@ -10,7 +10,11 @@ import SwiftUI
 struct ShareFood: View {
     var body: some View {
         Text("Share")
+        Image("TestLogo")
+            .resizable()
+            .scaledToFit()
     }
+    
 }
 
 struct ShareFood_Previews: PreviewProvider {

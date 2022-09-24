@@ -16,6 +16,7 @@
 		4952685928DF2685009B50FA /* omas_essenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952685828DF2685009B50FA /* omas_essenUITestsLaunchTests.swift */; };
 		4952686628DF3335009B50FA /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686528DF3335009B50FA /* LoginPage.swift */; };
 		4952686828DF3390009B50FA /* ShareFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686728DF3390009B50FA /* ShareFood.swift */; };
+		4952686A28DF3445009B50FA /* GetFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686928DF3445009B50FA /* GetFood.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4952685828DF2685009B50FA /* omas_essenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omas_essenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4952686528DF3335009B50FA /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		4952686728DF3390009B50FA /* ShareFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFood.swift; sourceTree = "<group>"; };
+		4952686928DF3445009B50FA /* GetFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFood.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				4952683F28DF2685009B50FA /* Assets.xcassets */,
 				4952684128DF2685009B50FA /* Preview Content */,
 				4952686728DF3390009B50FA /* ShareFood.swift */,
+				4952686928DF3445009B50FA /* GetFood.swift */,
 			);
 			path = omas_essen;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				4952683E28DF2684009B50FA /* MainPage.swift in Sources */,
 				4952686828DF3390009B50FA /* ShareFood.swift in Sources */,
 				4952686628DF3335009B50FA /* LoginPage.swift in Sources */,
+				4952686A28DF3445009B50FA /* GetFood.swift in Sources */,
 				4952683C28DF2684009B50FA /* omas_essenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

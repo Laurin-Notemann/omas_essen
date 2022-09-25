@@ -17,6 +17,11 @@
 		4952686628DF3335009B50FA /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686528DF3335009B50FA /* LoginPage.swift */; };
 		4952686828DF3390009B50FA /* ShareFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686728DF3390009B50FA /* ShareFood.swift */; };
 		4952686A28DF3445009B50FA /* GetFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686928DF3445009B50FA /* GetFood.swift */; };
+		4952686D28DF7AC4009B50FA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686C28DF7AC4009B50FA /* CameraView.swift */; };
+		4952686F28DF7AD4009B50FA /* CameraFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952686E28DF7AD4009B50FA /* CameraFrameView.swift */; };
+		4952687128DF7B02009B50FA /* CameraFrameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952687028DF7B02009B50FA /* CameraFrameHandler.swift */; };
+		4952687328DF862F009B50FA /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952687228DF862F009B50FA /* PinView.swift */; };
+		4952687528DF87FE009B50FA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952687428DF87FE009B50FA /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,11 @@
 		4952686528DF3335009B50FA /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		4952686728DF3390009B50FA /* ShareFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFood.swift; sourceTree = "<group>"; };
 		4952686928DF3445009B50FA /* GetFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFood.swift; sourceTree = "<group>"; };
+		4952686C28DF7AC4009B50FA /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		4952686E28DF7AD4009B50FA /* CameraFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFrameView.swift; sourceTree = "<group>"; };
+		4952687028DF7B02009B50FA /* CameraFrameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFrameHandler.swift; sourceTree = "<group>"; };
+		4952687228DF862F009B50FA /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		4952687428DF87FE009B50FA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +114,12 @@
 				4952683D28DF2684009B50FA /* MainPage.swift */,
 				4952686528DF3335009B50FA /* LoginPage.swift */,
 				4952683F28DF2685009B50FA /* Assets.xcassets */,
-				4952684128DF2685009B50FA /* Preview Content */,
 				4952686728DF3390009B50FA /* ShareFood.swift */,
 				4952686928DF3445009B50FA /* GetFood.swift */,
+				4952686B28DF7A99009B50FA /* Camera */,
+				4952684128DF2685009B50FA /* Preview Content */,
+				4952687228DF862F009B50FA /* PinView.swift */,
+				4952687428DF87FE009B50FA /* Settings.swift */,
 			);
 			path = omas_essen;
 			sourceTree = "<group>";
@@ -134,6 +147,16 @@
 				4952685828DF2685009B50FA /* omas_essenUITestsLaunchTests.swift */,
 			);
 			path = omas_essenUITests;
+			sourceTree = "<group>";
+		};
+		4952686B28DF7A99009B50FA /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4952686C28DF7AC4009B50FA /* CameraView.swift */,
+				4952686E28DF7AD4009B50FA /* CameraFrameView.swift */,
+				4952687028DF7B02009B50FA /* CameraFrameHandler.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +292,11 @@
 				4952683E28DF2684009B50FA /* MainPage.swift in Sources */,
 				4952686828DF3390009B50FA /* ShareFood.swift in Sources */,
 				4952686628DF3335009B50FA /* LoginPage.swift in Sources */,
+				4952686F28DF7AD4009B50FA /* CameraFrameView.swift in Sources */,
+				4952687528DF87FE009B50FA /* Settings.swift in Sources */,
+				4952686D28DF7AC4009B50FA /* CameraView.swift in Sources */,
+				4952687328DF862F009B50FA /* PinView.swift in Sources */,
+				4952687128DF7B02009B50FA /* CameraFrameHandler.swift in Sources */,
 				4952686A28DF3445009B50FA /* GetFood.swift in Sources */,
 				4952683C28DF2684009B50FA /* omas_essenApp.swift in Sources */,
 			);
@@ -429,13 +457,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"omas_essen/Preview Content\"";
+				DEVELOPMENT_TEAM = UDND6CWA46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,13 +489,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"omas_essen/Preview Content\"";
+				DEVELOPMENT_TEAM = UDND6CWA46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

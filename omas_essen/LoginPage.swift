@@ -40,11 +40,11 @@ struct LoginPage: View {
                         "Enter your full name",
                         text: $name
                     )
-                    .padding()
-                    .background(.white)
-                    .cornerRadius(20)
-                    .multilineTextAlignment(.center)
-                    .shadow(radius: 4)
+                        .padding()
+                        .background(.white)
+                        .cornerRadius(20)
+                        .multilineTextAlignment(.center)
+                        .shadow(radius: 4)
                     
                     TextField(
                         "Enter your mobile number",
